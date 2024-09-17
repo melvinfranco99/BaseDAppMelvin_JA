@@ -8,7 +8,7 @@ const MyFooter = () => (
         <div className='row mt-3'>
           <div className='col-md-3 col-lg-4 col-xl-3 mx-auto mb-4'>
             <h6 className='text-uppercase fw-bold mb-4'>
-              <i className='fas fa-gem me-3'></i>BlockStellart
+              <i className='fas fa-gem me-3'></i>MelvinFranco
             </h6>
             <p>
               Accede a los cursos de tecnología más novedosos y destacados del mercado.
@@ -50,7 +50,7 @@ const MyFooter = () => (
     </section>
 
     <div className='text-center p-4 bg-dark text-white' >
-      © 2022 Copyright:&nbsp;
+      © 2024 Copyright:&nbsp;
       <a className='text-reset fw-bold text-white' href='/'>
         melvinfranco.com
       </a>

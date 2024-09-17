@@ -33,7 +33,7 @@ const Navigation = ({ account }) => {
                             rel="noopener noreferrer"
                             className="button nav-button btn-sm mx-4">
                             <Button variant="outline-light">
-                                {account.slice(0, 10) + '...' + account.slice(32, 42)}
+                                {account.slice(0, 10) + '...' + account.slice(32, 42)} {/*esto es para que se vea solamente los 10 primeros digitos y los 10 ultimos de mi cuenta de Metamask*/}
                             </Button>
                         </Nav.Link>
                     </Nav>

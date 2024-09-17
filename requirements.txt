@@ -1,0 +1,4 @@
+1 - truffle init
+2 - npm init --yes
+3 - npm install package.json
+Hacer todos los npm audit fix --force que hagan falta, lo suyo es que se me quede solo en 1 vulnerabilidad critica
