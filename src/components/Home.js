@@ -21,7 +21,7 @@ class App extends Component {
       window.web3 = new Web3(window.ethereum)
       const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
       //console.log('Accounts: ', accounts) //para ver las cuentas
-      //console.log('Cuenta 0: ', accounts[0]) //para ver la primera cuenta
+      console.log('Cuenta: ', accounts[0]) //para ver la primera cuenta
     }
     else if (window.web3) {
       window.web3 = new Web3(window.web3.currentProvider)
